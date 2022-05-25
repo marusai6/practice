@@ -20,16 +20,14 @@
 # print(result)
 
 # Задание 4
-# num = int(input('Введите целое положительное число'))
-# res = 0
-# while True:
-#     last = num % 10
-#     if last > res:
-#         res = last
-#         num = num // 10
-#     else:
-#         break
-# print(res)
+num = int(input('Введите целое положительное число'))
+res = 0
+while num > 0:
+    last = num % 10
+    if last > res:
+        res = last
+    num = num // 10
+print(res)
 
 # Задание 5
 # profit = int(input('Введите выручку'))
@@ -54,10 +52,10 @@
 #     print('Убыток')
 
 # Задание 7
-a = int(input('Сколько пробежал в  первый день'))
-b = int(input('Сколько нужно пробежать'))
-day = 1
-while a < b:
-    a = a + 0.1 * a
-    day = day + 1
-print(f'На {day} день спортсмен достиг результата - не менее {b} км')
+# a = int(input('Сколько пробежал в  первый день'))
+# b = int(input('Сколько нужно пробежать'))
+# day = 1
+# while a < b:
+#     a = a + 0.1 * a
+#     day = day + 1
+# print(f'На {day} день спортсмен достиг результата - не менее {b} км')
