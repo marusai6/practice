@@ -57,13 +57,7 @@
 #     new_li = map(int, li)
 #     print(sum(new_li))
 
-# Задание 6
-# my_dict = {}
-# with open("Text7.txt", 'r', encoding='utf-8') as f:
-#   my_li = f.readlines()
-#         for el in my_li:
-#             el.split(':')
-#         print(my_li)
+
 
 # Задание 7
 with open("Text8.txt", 'r', encoding='utf-8') as f:
